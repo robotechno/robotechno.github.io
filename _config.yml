@@ -1,62 +1,15 @@
-title: Robotechno's Tech Corner
-author:
-  name: Hai Nguyen
-  email: hainhmt@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  just a corner for my SysAdmin life
+# Example Site settings
 
-show_excerpts: true # set to true to show excerpts on the homepage
+#google_analytics: UA-NNNNNNNN-N
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  skin: solarized
-  date_format: "%b %-d, %Y"
+#header_pages:
+#  - index.md
+#  - about.md
 
-  # generate social links in footer
-  social_links:
-    twitter: jekyllrb
-    github:  robotechno
-    # devto: jekyll
-    # dribbble: jekyll
-    facebook: robotechno
-    # flickr:   jekyll
-    instagram: robotechno
-    linkedin: hainhmt
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-  disqus:
-    shortname: robotechno
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-  - about.md
-  - portfolio.md
-
-# Build settings
-theme: jekyll-theme-minimal
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-seo-tag
