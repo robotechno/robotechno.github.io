@@ -1,4 +1,6 @@
-draft
+## Scenario
+
+The server only has 1 mounted disk & partition, it is out of space.
 
 ```
 [ec2-user@ip-172-31-30-152 ~]$ df -h
@@ -7,7 +9,9 @@ devtmpfs        992M   56K  992M   1% /dev
 tmpfs          1001M     0 1001M   0% /dev/shm
 /dev/xvda1       99G   95G  4.2G  96% /
 ```
-.
+
+## Procedure
+
 ```
 [root@ip-172-31-30-152 ~]# fdisk -l
 
